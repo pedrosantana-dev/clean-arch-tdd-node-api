@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/pedrosantana-dev/clean-arch-tdd-node-api#readme",
   "devDependencies": {
     "husky": "^8.0.3",
+    "jest": "^29.7.0",
     "lint-staged": "^15.0.2",
     "standard": "^17.1.0"
   }
