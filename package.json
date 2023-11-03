@@ -11,13 +11,6 @@
   "standard": {
     "env": ["jest"]
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "npm run test:staged",
-      "git add"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pedrosantana-dev/clean-arch-tdd-node-api.git"
