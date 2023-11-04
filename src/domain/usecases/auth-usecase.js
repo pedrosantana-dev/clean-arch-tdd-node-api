@@ -22,7 +22,8 @@ class AuthUseCase {
     if (!isValid) {
       return null
     }
-    await this.tokenGenerator.generator(user.id)
+    const accessToken = await this.tokenGenerator.generator(user.id)
+    return accessToken
   }
 }
 
