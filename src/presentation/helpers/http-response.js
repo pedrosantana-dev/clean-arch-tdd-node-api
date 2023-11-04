@@ -19,8 +19,13 @@ class HttpResponse {
     }
   }
 
-  static ok () {
-    return { statusCode: 200 }
+  static ok (data) {
+    return {
+      statusCode: 200,
+      body: {
+        accessToken: data
+      }
+    }
   }
 }
 
